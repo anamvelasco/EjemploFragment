@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/navigation_batman"
+        android:title="@string/batman_name"
+        app:showAsAction = "ifRoom" />
+
+    <item
+        android:id="@+id/navigation_flash"
+        android:title= "@string/flash_name"
+        app:showAsAction = "ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_superman"
+        android:title = "@string/superman_name"
+        app:showAsAction = "ifRoom" />
+
+    <item
+        android:id="@+id/navigation_wonder_woman"
+        android:title="@string/wonder_woman_name"
+        app:showAsAction = "ifRoom" />
+    </group>
+
+</menu>
